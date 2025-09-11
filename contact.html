@@ -6,10 +6,10 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Home &ndash; Medi</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Contacto - María Doval Marcos - Podóloga</title>
+	<meta name="description" content="Contacta con la consulta de podología María Doval Marcos en Vilagarcía de Arousa. Tel: 986-186-246, WhatsApp: 615-453-835. Alcalde Rey Daviña nº2 2ºB.">
+	<meta name="author" content="María Doval Marcos">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS
   ================================================== -->
@@ -19,42 +19,14 @@
 <link rel='stylesheet' href='css/base.css'>
 <link rel='stylesheet' href='style.css'>
 <link rel='stylesheet' href='css/mediaqueries.css'>
-<link rel='stylesheet' href='colors/default.css'>
+<link rel='stylesheet' href='colors/blue.css'>
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="">
-	<link rel="apple-touch-icon" href="">
-	<link rel="apple-touch-icon" sizes="72x72" href="">
-	<link rel="apple-touch-icon" sizes="114x114" href="">
 
-	<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false'></script>
 
 	<script src="js/modernizr.js"></script>
 
-	
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
 </head>
 <body>
 
